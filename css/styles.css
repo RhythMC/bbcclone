@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar {
+    width: 1500px;
+    margin: 0 auto;
+    height: 0px;
+}
+
+body {
+    max-width: 100%;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    width: 120px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 65px;
+    float: left;
+}
+
+.topbar-section {
+    float: left;
+    border-left: 1px #DADADA solid;
+    height: 100%;
+}
+
+#signin-image {
+    width: 40px;
+    margin: 15px 5px 5px 5px;
+    float: left;
+}
+
+#signin-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 18px;
+    padding-right: 80px;
+    float: left;
+}
+
+.topbar-menu {
+    font-weight: bold;
+    font-size: 100%;
+    padding: 16px 12px;
+    height: 12px;
+}
+
+#downarrow-image {
+    margin: 15px 5px 5px 60px;
+    float: left;
+}
+
+#searchbox {
+    background-color: #e4e4e4;
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin: 10px 0px 10px 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 90%;
+    float: left;
+}
+
+#magnifyingglass {
+    margin-top: 9px;
+    height: 32px;
+}
+
+.class {
+    clear: both;
+}
+
+#red-menu-bar-container {
+    background-color: #BC3127;
+    width: 100%;
+    height: 125px;
+    padding: 0;
+    margin: 12px 0px 0px 0px;
+}
+
+#menu-bar {
+    width: 1500px;
+    margin-left: 100px;
+    height: 0px;
+}
+
+h1 {
+    padding: 75px 0px 30px 70px;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.menubar-section {
+    float: left;
+    border-left: 1px #e4e4e4;
+    color: #e4e4e4;
+    padding: 0px 10px 5px 10px;
+    font-size: 18px;
+}
+
+#downarrow-image-more {
+    padding-left: 0;
+}
