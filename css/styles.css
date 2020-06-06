@@ -112,3 +112,21 @@ h1 {
 #downarrow-image-more {
     padding-left: 0;
 }
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.spinning-loree {
+    -webkit-animation: rotating 5s linear infinite;
+    color: red;
+    width: fit-content;
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+
+}
